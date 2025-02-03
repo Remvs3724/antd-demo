@@ -1,0 +1,95 @@
+html, body {
+  height: 100%; /* Make sure the parent takes the full height */
+  margin: 0;    /* Remove default margin */
+  display: flex; /* Enable flexbox */
+  justify-content: center;
+  position: relative;/* Center horizontally */
+}
+
+.OverContainer{
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  padding: 0px;
+  width: 600px;
+  background-color: #d3d3d3;
+  border: 1px solid black;
+  position: relative;
+  top:100px;
+  
+}
+.AddTaskInput{
+  width:300px;
+  height: 30px;
+  box-shadow: 1px 1px 0px 0px;
+  border-radius: 20px;
+  border: 1pt solid white;
+  font-size: larger;
+}
+
+
+
+.BottomInf{
+  display: grid;
+  width:600px;
+  height: 50px;
+  grid-template-columns: 150px 280px 170px;
+  position:relative;
+  border-top: 1pt solid black;
+ 
+ 
+}
+.CountTaskLeft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.ClearButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:20px;
+  margin-top: 16px;
+  border-radius: 5px;
+  border: 0px solid white;
+  background-color: #d3d3d3;
+}
+.StatusRadio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AddButton{
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 0px solid white;
+}
+.SelectAll{
+  margin-right:10px
+}
+.EveryTask{
+  font-size: large
+}
+.EditButton{
+margin-right:10px;
+margin-left:10px;
+border-radius: 5px;
+border: 0px solid white;
+
+}
+
+.SaveButton{
+  margin-right:10px;
+margin-left:10px;
+border-radius: 5px;
+  border: 0px solid white;
+}
+
+
+.DeleteButton{
+  margin-right:10px;
+margin-left:px;
+border-radius: 5px;
+  border: 0px solid white;
+}
